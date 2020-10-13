@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="service_gui">
+      <UniqueIdentifier>{86ca36bb-8af5-45ff-adb3-6bde04828d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert">
+      <UniqueIdentifier>{895b6c7b-3770-4f9b-8a37-509e4e57d111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{8bd66e25-6013-4372-949f-414f86aae24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\log">
+      <UniqueIdentifier>{5d244cd0-8ccb-4758-a1e9-eae0e21da6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Json">
+      <UniqueIdentifier>{5d80e336-d8e0-4d88-ac35-f25b3d6dd7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\GetHttp">
+      <UniqueIdentifier>{c04b03b0-cd43-4be8-9658-8ddfea1e7804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\stringconvert">
+      <UniqueIdentifier>{06a99a7f-adc8-4f7a-9c5b-483460848b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert\start_gui">
+      <UniqueIdentifier>{4844b744-7e30-4fe0-a24a-21ba54bc21f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert\utils">
+      <UniqueIdentifier>{f8c1105d-dd40-4055-94c6-c8ba45a1ba80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert\utils\check_time">
+      <UniqueIdentifier>{c2e8d19c-b68f-4a4f-816b-41e8c4354f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert\utils\JsonRead">
+      <UniqueIdentifier>{202f3797-35ee-440c-9516-044d6f51711f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert\utils\JsonWriteFile">
+      <UniqueIdentifier>{fce5280a-bc3f-4a4a-8072-222bce77cf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupAdvert\utils\open_process">
+      <UniqueIdentifier>{604518fc-008a-42f5-80f4-0b5f21c193fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>Utils\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="GetHttp.h">
+      <Filter>Utils\GetHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="service_gui.h">
+      <Filter>service_gui</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Utils\log</Filter>
+    </ClInclude>
+    <ClInclude Include="start_gui.h">
+      <Filter>PopupAdvert\start_gui</Filter>
+    </ClInclude>
+    <ClInclude Include="check_time.h">
+      <Filter>PopupAdvert\utils\check_time</Filter>
+    </ClInclude>
+    <ClInclude Include="string_convert.h">
+      <Filter>Utils\stringconvert</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupAdvert.h">
+      <Filter>PopupAdvert</Filter>
+    </ClInclude>
+    <ClInclude Include="read_json.h">
+      <Filter>PopupAdvert\utils\JsonRead</Filter>
+    </ClInclude>
+    <ClInclude Include="write_json_file.h">
+      <Filter>PopupAdvert\utils\JsonWriteFile</Filter>
+    </ClInclude>
+    <ClInclude Include="open_process.h">
+      <Filter>PopupAdvert\utils\open_process</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zhw_popup_service.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.c">
+      <Filter>Utils\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="GetHttp.cpp">
+      <Filter>Utils\GetHttp</Filter>
+    </ClCompile>
+    <ClCompile Include="service_gui.cpp">
+      <Filter>service_gui</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Utils\log</Filter>
+    </ClCompile>
+    <ClCompile Include="start_gui.cpp">
+      <Filter>PopupAdvert\start_gui</Filter>
+    </ClCompile>
+    <ClCompile Include="check_time.cpp">
+      <Filter>PopupAdvert\utils\check_time</Filter>
+    </ClCompile>
+    <ClCompile Include="string_convert.cpp">
+      <Filter>Utils\stringconvert</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupAdvert.cpp">
+      <Filter>PopupAdvert</Filter>
+    </ClCompile>
+    <ClCompile Include="read_json.cpp">
+      <Filter>PopupAdvert\utils\JsonRead</Filter>
+    </ClCompile>
+    <ClCompile Include="write_json_file.cpp">
+      <Filter>PopupAdvert\utils\JsonWriteFile</Filter>
+    </ClCompile>
+    <ClCompile Include="open_process.cpp">
+      <Filter>PopupAdvert\utils\open_process</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zhw_popup_service", "zhw_popup_service\zhw_popup_service.vcxproj", "{9A589E68-B0B0-4DAE-9042-CF27EDE76754}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InstallService", "InstallService\InstallService.vcxproj", "{4A59B509-B628-4174-A476-A65B35C36721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A589E68-B0B0-4DAE-9042-CF27EDE76754}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A589E68-B0B0-4DAE-9042-CF27EDE76754}.Debug|Win32.Build.0 = Debug|Win32
+		{9A589E68-B0B0-4DAE-9042-CF27EDE76754}.Release|Win32.ActiveCfg = Release|Win32
+		{9A589E68-B0B0-4DAE-9042-CF27EDE76754}.Release|Win32.Build.0 = Release|Win32
+		{4A59B509-B628-4174-A476-A65B35C36721}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A59B509-B628-4174-A476-A65B35C36721}.Debug|Win32.Build.0 = Debug|Win32
+		{4A59B509-B628-4174-A476-A65B35C36721}.Release|Win32.ActiveCfg = Release|Win32
+		{4A59B509-B628-4174-A476-A65B35C36721}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

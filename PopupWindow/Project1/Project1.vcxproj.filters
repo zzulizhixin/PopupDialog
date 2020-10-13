@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cJSON">
+      <UniqueIdentifier>{c7c845e5-ac68-467b-b827-9b1a8ef2474d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="getUserMessage">
+      <UniqueIdentifier>{76be76c9-2f66-4932-abae-21342c90a225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cJSON\ReadJson">
+      <UniqueIdentifier>{0dc63a7c-248f-4c7a-bf3e-b362c1037793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{2d14cae5-3894-43be-9219-2a9271dff8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{48cbed12-7299-43e9-9378-7405598ba9eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadJson.cpp">
+      <Filter>cJSON\ReadJson</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.c">
+      <Filter>cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="getuser_message.cpp">
+      <Filter>getUserMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="cdHttpClient.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadJson.h">
+      <Filter>cJSON\ReadJson</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="cdHttpClient.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="getuser_message.h">
+      <Filter>getUserMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="近期不再显示.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="近期不再显示下划线.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="关闭划过.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="关闭默认.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
